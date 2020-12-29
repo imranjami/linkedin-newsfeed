@@ -1,0 +1,82 @@
+.login {
+  display: grid;
+  place-items: center;
+  margin-top: 10px;
+}
+
+.login > img {
+  object-fit: contain;
+  height: 70px;
+  margin: 20px 0px;
+}
+
+.login > form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login > form > input {
+  width: 350px;
+  height: 50px;
+  font-size: 1.1rem;
+  padding: 0px 20px;
+  margin: 5px 0px;
+  border-radius: 50px;
+  border: 1px solid lightgray;
+  outline: none;
+}
+
+.login > form > input:hover {
+  background-color: whitesmoke;
+}
+
+.login > form > .button {
+  width: 350px;
+  height: 50px;
+  margin: 5px 0px;
+  font-size: 1.1rem;
+  color: white;
+  background-color: #c423ff;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  transition: background-color 300ms linear;
+}
+.login > form > .button:hover {
+  background-color: #a41ed4;
+  cursor: pointer;
+  transition: background-color 300ms linear;
+}
+
+.login__register {
+  cursor: pointer;
+  color: #c423ff;
+}
+
+.login > p {
+  color: gray;
+  margin-top: 20px;
+}
+
+.container__login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.container__login > h1 {
+  white-space: nowrap;
+  font-size: 1.4rem;
+  color: #c423ff;
+  font-weight: 300;
+  margin: 10px 0px;
+}
+
+.container__login > h1 > span {
+  font-weight: bold;
+}
+
+.register {
+  display: none !important;
+}

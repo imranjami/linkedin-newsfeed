@@ -1,0 +1,50 @@
+.landingPage {
+  width: 100%;
+}
+
+.landingPage__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.landingPage__header > img {
+  width: 250px;
+  margin-left: 30px;
+}
+
+.landingPage__header > img:hover {
+  cursor: pointer;
+}
+
+.landingPage__header > p {
+  margin-right: 30px;
+  color: gray;
+}
+
+.landingPage__header > p > a {
+  color: #c422ff;
+  text-decoration: none;
+}
+
+.landingPage__header > p > a:hover {
+  text-decoration: underline;
+}
+
+.landingPage__body {
+  margin-top: 30px;
+  width: 100%;
+}
+
+.landingPage__bodyContent {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column-reverse;
+  align-items: center;
+  margin: 0 30px;
+}
+
+.landingPage__bodyContent > img {
+  width: 50vw;
+  object-fit: contain;
+}

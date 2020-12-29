@@ -1,0 +1,87 @@
+.feed {
+  flex: 0.5;
+  margin: 0 20px;
+}
+
+.feed__inputContainer {
+  background-color: white;
+  padding: 10px 10px 5px 10px;
+  border-radius: 10px;
+  border: 1px solid lightgray;
+}
+
+.feed__input {
+  border: 1px solid lightgray;
+  border-radius: 30px;
+  display: flex;
+  padding: 10px 10px 10px 10px;
+  color: gray;
+  padding-left: 15px;
+  justify-content: center;
+}
+
+.feed__input > .MuiSvgIcon-root {
+  font-size: 1.2rem;
+}
+
+.feed__input:hover {
+  background-color: whitesmoke;
+}
+
+.feed__input > form {
+  display: flex;
+  width: 100%;
+}
+
+.feed__input > form > input {
+  border: none;
+  flex: 1;
+  margin-left: 5px;
+  outline-width: 0;
+  font-weight: 600;
+  font-size: 0.9rem;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.feed__input > form > button {
+  display: none;
+}
+
+.feed__inputOptions {
+  font-size: 0.9rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.inputOption {
+  margin-top: 5px !important;
+  border-radius: 50px !important;
+}
+
+.inputOption > h4 {
+  white-space: nowrap;
+}
+
+.feed__linebreak {
+  display: flex;
+  align-items: center;
+}
+
+.feed__linebreak > p {
+  padding-left: 10px;
+  font-size: 0.75rem;
+  color: gray;
+  white-space: nowrap;
+}
+
+.feed__linebreakLine {
+  border-top: 1px solid lightgray;
+  margin: 15px 0px;
+  width: 100%;
+}
+
+.feed__linebreak > p > span {
+  font-weight: bold;
+  color: #555;
+}

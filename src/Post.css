@@ -1,0 +1,109 @@
+.post {
+  background-color: white;
+  padding: 15px 15px 5px 15px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: 1px solid lightgray;
+}
+
+.post__header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.post__header > .MuiAvatar-root {
+  height: 50px !important;
+  width: 50px !important;
+}
+
+.post__info {
+  margin-left: 10px;
+}
+
+.post__info > p {
+  display: flex;
+  align-items: center;
+  font-size: 0.8rem;
+  color: gray;
+}
+
+.post__info > p > .MuiSvgIcon-root {
+  margin-left: 2px;
+  width: 0.7em;
+  height: 0.7em;
+}
+
+.post__info > h2 {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.post__info > h2 > span {
+  font-weight: normal;
+  color: grey;
+}
+
+.post__body {
+  overflow-wrap: anywhere;
+}
+
+.post__body > h2 {
+  font-size: 15px;
+}
+
+.post__buttons {
+  display: flex;
+}
+
+.post__bannerContent {
+  display: flex;
+  justify-content: space-between;
+}
+
+.post__bannerContent > p {
+  color: gray;
+  font-size: 0.75rem;
+}
+
+.post__bannerContent > p > span {
+  color: #333;
+  font-weight: bold;
+}
+
+.post__bannerContent > .MuiSvgIcon-root:hover {
+  border-radius: 100px;
+  background-color: whitesmoke;
+  cursor: pointer;
+}
+
+.post__bannerBottom {
+  border-bottom: 1px solid lightgray;
+  margin: 5px 0px 15px 0px;
+}
+
+.post__reactions {
+  margin-top: 15px;
+  display: flex;
+  font-size: 0.75rem;
+  color: grey;
+}
+
+.post__reactionsText > p > span:hover {
+  text-decoration: underline;
+  color: #aa00ff;
+  cursor: pointer;
+}
+
+.post__reactions > img {
+  margin-right: 3px;
+}
+
+.post__reactionsBottom {
+  border-bottom: 1px solid lightgray;
+  margin-top: 10px;
+}
+
+.inputOption {
+  font-size: 0.85rem;
+}
